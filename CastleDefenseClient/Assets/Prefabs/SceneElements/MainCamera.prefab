@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4489534822149461463}
   - component: {fileID: 95941655853671966}
   - component: {fileID: 4411636903620233501}
+  - component: {fileID: 2293439533614621796}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -126,6 +127,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8babe77ccf1a70244913bdfca5844ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSensitivity: 4
+  cameraSensitivity: 20
+  horizontalLimit: {x: -30, y: 25}
+  verticalLimit: {x: -16, y: 16}
   cameraZoomAmount: 8
+  cameraZoomLimit: {x: 6, y: 28}
   targetCamera: {fileID: 95941655853671966}
+--- !u!114 &2293439533614621796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376776040330373118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752575694cb792948be194251e3def35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxObjectList:
+  - parallaxObjectTransform: {fileID: 0}
+    parallaxObjectStartPosition: {x: 0, y: 0}
+    parallaxAmount: 0.491
+  - parallaxObjectTransform: {fileID: 0}
+    parallaxObjectStartPosition: {x: 0, y: 0}
+    parallaxAmount: 0.312
+  - parallaxObjectTransform: {fileID: 0}
+    parallaxObjectStartPosition: {x: 0, y: 0}
+    parallaxAmount: 0.566
+  - parallaxObjectTransform: {fileID: 0}
+    parallaxObjectStartPosition: {x: 0, y: 0}
+    parallaxAmount: 0.668
+  targetCamera: {fileID: 4489534822149461463}

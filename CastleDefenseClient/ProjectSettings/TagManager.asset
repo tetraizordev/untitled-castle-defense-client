@@ -41,3 +41,39 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky
+    uniqueID: 3260654773
+    locked: 0
+  - name: Background
+    uniqueID: 965212937
+    locked: 0
+  - name: Clouds1
+    uniqueID: 4168356459
+    locked: 0
+  - name: Mountain1
+    uniqueID: 3322665665
+    locked: 0
+  - name: Clouds2
+    uniqueID: 1565541507
+    locked: 0
+  - name: Mountain2
+    uniqueID: 2118986593
+    locked: 0
+  - name: Floor
+    uniqueID: 2801438861
+    locked: 0
+  - name: CastleBackground
+    uniqueID: 784765931
+    locked: 0
+  - name: CastleDecoration
+    uniqueID: 2478795089
+    locked: 0
+  - name: CastleProps
+    uniqueID: 325997943
+    locked: 0
+  - name: CastleWalls
+    uniqueID: 413438669
+    locked: 0
+  - name: Entity
+    uniqueID: 2898354077
+    locked: 0
